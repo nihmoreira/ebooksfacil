@@ -1,0 +1,65 @@
+body{
+    background-color: rgba(248, 225, 207, 0.477);
+}
+
+.pesquisar {
+    margin-left: 38%;
+    border-radius: 6px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    color: rgb(187, 93, 26);
+    border: 1px solid grey;
+    background-color: rgba(248, 225, 207, 0.477);
+    box-shadow: 1px 1px 1px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(187, 93, 26);
+    text-shadow: 0.2px 0px 1px grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.botao {
+    background-color:rgba(248, 225, 207, 0.477);
+    color: rgb(187, 93, 26);
+    border-radius: 8px;
+    font-size: 19px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    width: 400px;
+    height: 40px;
+    margin-left: 36%;
+    box-shadow: 1px 1px 5px grey;
+    border: 1px solid rgb(147, 146, 146);
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.img {
+    text-align: center;
+}
+
+.parag {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+}
+
+.copy {
+    text-align: center;
+    color: rgb(83, 42, 13);
+}
+
+textarea{
+    border-radius: 13px;
+    background-color: rgba(248, 225, 207, 0.477);
+
+}
+
+.feedback{
+    color: rgb(187, 93, 26);
+}
+
+

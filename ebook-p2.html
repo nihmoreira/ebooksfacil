@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="formulario" content="formulario de compras do eBooksFácil">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="ebook-p2.css">
+</head>
+
+<body>
+    <h2>Formulário de Pagamento</h2>
+    <form action="ebook-p3.html">
+        <fieldset>
+            <legend><b>Dados do Cliente</b></legend>
+            <br>
+            <label>Nome Completo:</label>
+            <input type="text" name="nome" placeholder="digite seu nome" required>
+            <br><br>
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="email@email.com" required>
+            <br><br>
+            <label>Telefone:</label>
+            <input type="tel" name="telefone" placeholder="(00) 00000-0000" maxlength="11" required>
+            <br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Forma de Pagamento</b></legend>
+            <p>Valor a ser pago: <b>R$97,80</b></p>
+            <p>Escolha sua forma de Pagamento:</p>
+            <input type="radio" class="circle" name="aaa" id="cartao">
+            <label>Cartão de Crédito</label>
+            <br>
+            <input type="radio" class="circle" name="aaa" id="pix">
+            <label>Pix</label>
+            <br> <Br>
+            <fieldset>
+                <legend><b>Dados do Cartão</b></legend>
+                <br>
+                <label>Número do Cartão:</label>
+                <input type="text" name="num-cartao" placeholder="0000 0000 0000 0000" maxlength="16">
+                <br> <br>
+                <label>Data de Expiração:</label>
+                <input type="text" name="data-exp" placeholder="00/00" maxlength="5">
+                <br> <br>
+                <label>Código de Segurança:</label>
+                <input type="text" name="cod-seg" placeholder="123" maxlength="3">
+                <br>
+            </fieldset>
+            <br>
+            <input type="submit" class="pagar" name="pagar" value="Pagar">
+        </fieldset>
+    </form>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <footer>
+        <p class="copy">&copy 2024 Sua Empresa. Todos os direirtos reservados.</p>
+    </footer>
+</body>
+
+</html>
