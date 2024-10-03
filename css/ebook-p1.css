@@ -3,7 +3,7 @@ body{
 }
 
 .pesquisar {
-    margin-left: 38%;
+    margin-left: 41%;
     border-radius: 6px;
     font-family: 'Arial Narrow', Arial, sans-serif;
     color: rgb(187, 93, 26);
@@ -28,7 +28,7 @@ h1 {
     font-family: 'Arial Narrow', Arial, sans-serif;
     width: 400px;
     height: 40px;
-    margin-left: 36%;
+    margin-left: 40%;
     box-shadow: 1px 1px 5px grey;
     border: 1px solid rgb(147, 146, 146);
     text-align: center;
